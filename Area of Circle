@@ -1,0 +1,5 @@
+def Area(side):
+    return round(3.14 * side*side, 2)
+  
+side = int(input())
+print(Area(side))
